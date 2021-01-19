@@ -17,5 +17,52 @@ yum install python-pip -y
 pip install flask -y
 ```
 
-- Create app.py, error.html, index.html 
-- 
+- Create app.py
+
+```py
+from flask import Flask
+
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
+
+
+if __name__ == '__main__':
+    app.run()
+```
+
+- Create index.html
+
+```html
+<!DOCTYPE html>
+<head></head>
+<body>
+
+    <h1>
+
+        Hello World
+
+    </h1>
+
+</body>
+```
+
+- Create error.html
+
+```html
+<!DOCTYPE html>
+<body></body>
+<h1>
+    This is error page!
+</h1>
+```
+
+- Run your app:
+```bash
+python ./flask-ops/app.py
+```
+
