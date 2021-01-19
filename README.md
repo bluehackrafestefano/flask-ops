@@ -1,5 +1,7 @@
 # flask-ops
 
+- User data of the instance:
+```bash
 #! /bin/bash
 # update os
 yum update -y
@@ -13,3 +15,7 @@ yum install python3 -y
 yum install python-pip -y
 # install flask
 pip install flask -y
+```
+
+- Create app.py, error.html, index.html 
+- 
