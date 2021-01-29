@@ -1,6 +1,6 @@
 import webbrowser
 
 
-webbrowser.open('http://example.com')  # Go to example.com
+webbrowser.open('https://www.linkedin.com/feed/')  # Go to example.com
 
 
